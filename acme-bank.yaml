@@ -299,7 +299,7 @@ paths:
         '200':
           description: Request was successful
           schema:
-            $ref: '#/definitions/User'
+          $ref: '#/definitions/User'
       deprecated: false
   '/Users/{id}/exists':
     get:
