@@ -2,10 +2,12 @@ product: 2.0.0
 info:
   name: acme-bank
   title: acme-bank
-  version: 2.0.0
+  version: 3.0.0
 apis:
   acme-bank:
     $ref: acme-bank.yaml
+  acme-bank-2:
+    $ref: acme-bank-2.yaml
 visibility:
   view:
     type: public
@@ -17,5 +19,5 @@ plans:
     description: Default Plan
     approval: false
     rate-limit:
-      value: 100/hour
+      value: 1000/hour
       hard-limit: false
